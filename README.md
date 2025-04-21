@@ -1,3 +1,9 @@
+#B.code Portfolio 
+
+<img width="936" alt="Screenshot 2025-04-21 182643" src="https://github.com/user-attachments/assets/edc9fd28-5acc-42f1-928c-eabd5acd36a4" />
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/591f57d7-782a-4356-a20a-d4d2e9d60bd3" />
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
