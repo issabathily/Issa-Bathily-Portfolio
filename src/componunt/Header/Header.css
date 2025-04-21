@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+
+}
+header{
+z-index: 10;
+    position: fixed;
+    border: solid 1px #61dafb ;
+    border-radius: 15px;
+    display: flex;
+background-color: #0e0e0e;
+    padding: 7px;
+    width: 490px;
+
+
+align-items: center;
+}
+.header{
+
+z-index: 10;
+    margin: 2%;
+display: flex;
+    justify-content: center;
+
+}
+.reseaux-socio {
+    display: flex;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a:hover{
+background-color: rgba(38, 37, 37, 0.4);
+
+text-shadow:
+        0 0 5px #dc5300,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        0 0 80px #00ffff,
+        0 0 100px #00ffff,
+        0 0 120px #00ffff;
+    transition: all 0.8s;
+}
+nav a {
+      border-radius: 8px;
+    list-style: none;
+    text-decoration: none;
+    padding: 3px 18px ;
+    color: aqua;
+}
+header button{
+    background-color: #61dafb;
+    border: none;
+    padding: 7px 18px ;
+    border-radius: 50px;
+color: #2d2b2b;
+}
+.nom {color: #dc5300;
+
+}
+.dev:hover{
+
+text-shadow :  0 0 5px #61dafb,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        0 0 80px #00ffff,
+        0 0 100px #00ffff,
+        0 0 120px #00ffff;
+}
+.baner  {
+    align-items: center;
+    margin: 9% 6%;
+    padding: 5px;
+    display: flex;
+    gap: 12%;
+     justify-content:space-between;
+
+
+}
+
+.boton{
+    display: flex;
+}
+.bcode{
+    animation: App-logo 6s;
+        position: absolute;
+bottom: 3px;
+    z-index: 1;
+    transition: all 0.8s;
+    text-align: center;
+    top: 76%;
+margin-left: 180px;
+    color:#dc5300 ;
+    font-size: 1.7rem;
+
+}
+.text p{
+    border-left: solid 1px white;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.text{
+    width: 60%;
+}
+.img-letf{
+
+    width: 50%;
+}
+
+.img-letf img {
+    position: relative;
+    bottom: -100px;
+
+    animation: App-logo-spin 5s  ;
+width: 100%;
+
+}
+.profil {;
+
+margin-left: 3%;
+}
+.profil img{
+
+border-radius: 50%;
+    border: solid 2px aqua;
+width: 120px;
+
+filter: blendTrans(#00ffff);
+}
+
+
+ .text button:hover{
+    text-shadow:
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff,
+        0 0 80px #00ffff,
+        0 0 100px #00ffff,
+        0 0 120px #00ffff;
+}
+.profil button{
+    background:none;
+font-size: 0.7rem;
+    margin-left: 10px;
+    color: white;
+
+    border-radius: 50px;
+border: solid 1px #525050;
+
+    padding: 5px 10px;
+
+
+}
+.boton{
+    margin: 25px;
+
+}
+.boton button{
+     background:none;
+font-size: 0.8rem;
+    margin-left: 10px;
+    color: white;
+    border-radius: 50px;
+border: solid 1px #797070;
+
+    padding: 5px 10px;
+}
+.text{
+
+}
+
+.heure{
+
+    left: 2%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+
+@keyframes App-logo{
+  from {
+
+    transform: translateX(12%);
+  }
+  to {
+    transform: translateX(20%);
+
+
+  }
+
+}
+@media screen and (max-width: 600px ) {
+    .img-letf img{
+        display: none;
+
+    }
+    .text{
+        margin-left: 10%;
+    }
+    .bcode{
+        display: none;
+    }
+.reseaux-socio{
+    margin-left: 60px;
+}
+    .boton {
+
+display: flex;
+        width: 100%;
+
+    }
+    .text{
+   margin: 0;
+width: 100%;
+        justify-content: center;
+    }
+.profil{margin-left: 80px;
+    margin-top: 10px;
+
+}
+    .header{
+justify-items: center;
+width: 70px;
+        justify-content: center;
+    margin-left: 100px;
+        header{
+            border: none;
+
+        }
+    }
+}
+
+.div{position: fixed;
+    left: 90%;
+
+}

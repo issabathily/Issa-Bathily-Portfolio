@@ -1,0 +1,119 @@
+.presentation button {
+    background: none;
+padding: 10px 25px;
+color: #dc5300;
+
+    border: solid 1px #dc5300;
+}
+.presentation{
+    justify-content: space-between;
+    width: 100%;
+    gap: 4%;
+
+    display: flex;
+
+strong{
+    display: block;
+}
+
+
+
+
+align-content: center;
+}
+.presentation strong{
+
+    padding-bottom: 10px;
+
+}
+.presentation p{
+    color: black;
+}
+
+.presentation .Realisation{
+    background: none;
+    p{
+
+        color: #FFFFFF;
+        font-size: 0.9rem;
+    }
+    strong{
+text-align: center;
+        color: #dc5300;
+
+    }
+    color: white;
+    border: 1px solid #dc5300;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #dc5300, 0 0 20px #dc5300, 0 0 30px #dc5300;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.presentation div {
+    text-align: center;
+   margin: 2%;
+    width: 35%;
+    padding: 30px;
+border-radius: 5px;
+background-color: aqua;
+color: black;
+font-family: 'Inter', sans-serif;
+
+
+
+    margin-bottom: 30px;
+}
+.apropos button{
+    padding: 10px 50px;
+
+}
+
+@media screen and (max-width: 600px ) {
+   .presentation{
+     flex-direction: column;
+           div{
+
+               width: 80%;
+               margin: 0 12px 50px;
+           }
+   }
+
+    }
+
+h2{
+    color: #dc5300;
+    text-align: center;
+}
+.trai{
+    height: 1px;
+    width: 200px;
+    color: white;
+    background-color: #dc5300;
+}
+.t{
+    margin:  10% 1%;
+
+}
+
+.contener-static{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+width: 100%;
+}
+
+.contener-static div{
+    padding: 10px;
+    border-left: solid 1px #2d2b2b;
+    width: 30%;
+
+    margin: 5%;
+p{
+    font-size: 1.1rem;
+    padding-bottom: 100%;
+    color: #2d2b2b;
+}
+    span{
+        font-size: 2.5rem;
+    }
+}
