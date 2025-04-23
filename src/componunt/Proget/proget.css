@@ -1,0 +1,14 @@
+.container-proget{
+    display: flex;
+justify-content: space-around;
+
+}
+
+.container-proget img{
+width: 300px;
+border-radius: 30px;
+}
+.container-proget div{
+    overflow: hidden;
+    background-color: black;
+}

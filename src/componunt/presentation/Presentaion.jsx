@@ -3,10 +3,12 @@ import  './Presentation.css'
 class  Presentaion extends  React.Component{
     render() {
         return <>
+   <div className="effecte"> </div>
+            <br/>
+            <br/>
 
-            <br/>
-            <br/>
-           <div className="t">  <h2> About Me <div className="trai"> </div> </h2></div>
+            <h2> About Me <div className="trai"> </div> </h2>
+           <div className="">    </div>
             <br/>
             <br/>
         <div className="presentation">
@@ -44,7 +46,7 @@ class  Presentaion extends  React.Component{
 
                   <div className="div1">
                   <p> Niveau </p>
-                      <span> 00222 </span>fffkf
+                      <span> 00222 </span>
                   </div>
 
             </div>

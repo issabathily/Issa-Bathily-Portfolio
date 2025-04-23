@@ -6,6 +6,7 @@ color: #dc5300;
     border: solid 1px #dc5300;
 }
 .presentation{
+z-index: 1;
     justify-content: space-between;
     width: 100%;
     gap: 4%;
@@ -27,10 +28,14 @@ align-content: center;
 
 }
 .presentation p{
+    z-index: 10;
     color: black;
 }
 
 .presentation .Realisation{
+    z-index: 10;
+position: relative;
+    bottom: -50px;
     background: none;
     p{
 
@@ -48,7 +53,12 @@ text-align: center;
   box-shadow: 0 0 10px #dc5300, 0 0 20px #dc5300, 0 0 30px #dc5300;
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+.presentation div:hover{
+    transition: all 0.7s;
+    transform: scale(1.04);
+}
 .presentation div {
+    z-index: 10;
     text-align: center;
    margin: 2%;
     width: 35%;
@@ -85,12 +95,29 @@ h2{
 }
 .trai{
     height: 1px;
-    width: 200px;
+    width: 100px;
     color: white;
     background-color: #dc5300;
 }
+
+.t:hover{
+ background-image:
+
+        linear-gradient(to left, rgba(44, 185, 225, 0.34) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(44, 185, 225, 0.37) 1px, transparent 1px);
+    transition: all 0.8s;
+
+
+}
 .t{
-    margin:  10% 1%;
+
+    padding: 110px;
+    width: 350px;
+ background-image:
+
+        linear-gradient(to left, rgba(44, 185, 225, 0.21) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(44, 185, 225, 0.16) 1px, transparent 1px);
+      background-size: 100px 100px; /* taille des cases */
 
 }
 
@@ -116,4 +143,14 @@ p{
     span{
         font-size: 2.5rem;
     }
+}
+
+.effecte{
+bottom: -200px;
+    position: relative;
+    z-index: -10;
+    left: 50%;
+    height: 128px;
+    background-color: #dc5300;
+    width: 1px;
 }

@@ -1,0 +1,41 @@
+.container img{
+width: 100%;
+}
+
+.container{
+gap: 55px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+
+    color: white;
+
+}
+
+.React img{
+    width: 70px;
+}
+.Angular img{
+    width: 50px;
+}
+.typeScript img{
+    width: 50px;
+}
+.trais{
+    align-items: center;
+    height: 1px;
+ background-color: cyan;
+    width: 400px;
+}
+.t{display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.django{
+    width: 50px;
+}
+
+
+
