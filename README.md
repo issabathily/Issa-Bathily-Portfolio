@@ -1,6 +1,6 @@
 #B.code Portfolio 
 
-<img width="936" alt="Screenshot 2025-04-21 182643" src="https://github.com/user-attachments/assets/edc9fd28-5acc-42f1-928c-eabd5acd36a4" />
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/288c7816-ecdb-420a-9b79-513d21df0821" />
 <img width="937" alt="image" src="https://github.com/user-attachments/assets/63302fee-4e6f-4ace-8c42-a3f62c88eb14" />
 <img width="941" alt="image" src="https://github.com/user-attachments/assets/72c3feb1-3a15-488e-b99a-600e1e9bd678" />
 
