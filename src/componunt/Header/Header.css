@@ -11,7 +11,7 @@ z-index: 10;
 
     background-color: #0b0d13;
     padding: 7px;
-    width: 490px;
+    width: 530px;
 
 
 align-items: center;
@@ -199,6 +199,18 @@ border: solid 1px #797070;
 
 }
 @media screen and (max-width: 600px ) {
+    .heure{display: none;
+
+    }
+    .logo{
+        display: none;
+    }
+    nav a{
+           padding: 3px 7px ;
+    }
+    .div{
+display: none;
+    }
     .baner{margin-top: 20%;
 
     }
@@ -231,14 +243,21 @@ width: 100%;
     margin-top: 10px;
 
 }
+
+div{
+    left: -10%;
+}
     .header{
 justify-items: center;
-width: 70px;
+width: 80px;
+
         justify-content: center;
     margin-left: 100px;
         header{
-            border: none;
-
+margin-left: 28%;
+        gap: -40px;
+padding-left: 0;
+            width: 350px;
         }
     }
 }

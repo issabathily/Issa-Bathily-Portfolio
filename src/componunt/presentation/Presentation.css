@@ -78,12 +78,20 @@ font-family: 'Inter', sans-serif;
 }
 
 @media screen and (max-width: 600px ) {
+    .contener-static{
+ flex-wrap: wrap;
+    }
    .presentation{
+       .Realisation{
+           left: 6px;
+           margin-top: 10px;
+           margin-bottom: 90px;
+       }
      flex-direction: column;
            div{
 
-               width: 80%;
-               margin: 0 12px 100px;
+               width: 70%;
+               margin: 0 20px ;
            }
    }
 

@@ -20,7 +20,7 @@ class Header extends React.Component{
                                 <a href=""> <i class="fa-solid fa-briefcase"></i> Proget </a>
                             </li>
                             <li>
-                                <a href=""> Contact </a>
+                                <a href=""><i class="fa-solid fa-phone-volume"></i> Contact </a>
                             </li>
                             <li>
                                 <a href=""> Disign</a>
