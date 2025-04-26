@@ -189,16 +189,19 @@ border: solid 1px #797070;
 @keyframes App-logo{
   from {
 
-    transform: translateX(12%);
+
   }
   to {
-    transform: translateX(20%);
+
 
 
   }
 
 }
 @media screen and (max-width: 600px ) {
+    .baner{margin-top: 20%;
+
+    }
     .img-letf img{
         display: none;
 
