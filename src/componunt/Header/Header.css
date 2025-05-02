@@ -254,10 +254,11 @@ width: 80px;
         justify-content: center;
     margin-left: 100px;
         header{
+          border: none;
 margin-left: 28%;
         gap: -40px;
 padding-left: 0;
-            width: 350px;
+            width: 380px;
         }
     }
 }

@@ -6,7 +6,7 @@ class  Technologies extends  React.Component{
 
         return <>
 
-            <div className="t">  <span>   Technologies </span> <br/>   <div className="trais">  </div>   <div className="container">
+            <div className="t">   <br/>     <div className="container">
 
             <div className="React"><img src="/logo.svg" alt=""/>
             <p> React </p>

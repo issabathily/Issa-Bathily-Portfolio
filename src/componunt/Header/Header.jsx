@@ -23,7 +23,7 @@ class Header extends React.Component{
                                 <a href=""><i class="fa-solid fa-phone-volume"></i> Contact </a>
                             </li>
                             <li>
-                                <a href=""> Disign</a>
+                                <a href=""> <i class="fa-brands fa-figma"></i> Disign</a>
                             </li>
                         </ul>
                     </nav>
