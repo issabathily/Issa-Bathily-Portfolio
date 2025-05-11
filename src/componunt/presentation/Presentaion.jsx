@@ -14,17 +14,19 @@ class  Presentaion extends  React.Component{
         <div className="presentation">
             <div className="parcourt">
                 <strong> DEVelopeur Web </strong> <br/>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, provident.</p>
-            </div>
+                <p> Grâce à ma maîtrise de technologies comme JavaScript, React, Django, Flutter et Python, je suis capable d’intervenir à toutes les étapes d’un projet : de la conception à la mise en production</p>
+                        </div>
 
              <div className="Realisation">
                 <strong> Data Analyste  </strong> <br/>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptatibus! </p>
+
+                 <p> Je suis Data Analyst, passionné par l'exploration, l’analyse et la visualisation de données pour aider à la prise de décision stratégique. Avec une solide maîtrise des outils comme Python, SQL, Excel,
+                     exploitables et orientées résultats.</p>
             </div>
 
               <div className="apropos">
-                <strong className="apropos"> Gamer</strong> <br/>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, harum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, quos.</p>
+                <strong className="apropos"> Web Disign </strong> <br/>
+                  <p> Je suis Web Designer, passionné par la création d’interfaces web modernes, intuitives et centrées sur l’utilisateur. Spécialisé dans l’outil Figma, je conçois des maquettes interactives, des prototypes fonctionnels et des designs responsives qui allient esthétisme et performance.</p>
             </div>
         </div>
 
@@ -32,16 +34,16 @@ class  Presentaion extends  React.Component{
 
             <div className="contener-static">
                 <div className="div1">
-                <p> Realisation </p>
-                    <span> 1222  </span> year
+                <p> Experience  </p>
+                    <span> 2 </span> ans
                 </div>
                   <div className="div1">
                   <p> Colaboration </p>
                       <span> 09993 </span>kk
                   </div>
                   <div className="div1">
-                  <p> Niveau </p>
-                      <span> 02211 </span> tera
+                  <p> site en ligne </p>
+                      <span> 022 </span>
                   </div>
 
                   <div className="div1">

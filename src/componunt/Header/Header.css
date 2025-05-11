@@ -199,6 +199,10 @@ border: solid 1px #797070;
 
 }
 @media screen and (max-width: 600px ) {
+    .h1{
+        width: 300px;
+        margin-left: 12px;
+    }
     .heure{display: none;
 
     }
@@ -239,7 +243,7 @@ display: flex;
 width: 100%;
         justify-content: center;
     }
-.profil{margin-left: 80px;
+.profil{margin-left: 100px;
     margin-top: 10px;
 
 }
@@ -254,11 +258,12 @@ width: 80px;
         justify-content: center;
     margin-left: 100px;
         header{
-          border: none;
+            top: 0;
+border: none;
 margin-left: 28%;
         gap: -40px;
-padding-left: 0;
-            width: 380px;
+padding: 3px;
+            width: 380px;;
         }
     }
 }

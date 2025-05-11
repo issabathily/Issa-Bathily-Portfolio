@@ -5,7 +5,7 @@ class  Technologies extends  React.Component{
     render() {
 
         return <>
-
+                    <div className="responsive">
             <div className="t">   <br/>     <div className="container">
 
             <div className="React"><img src="/logo.svg" alt=""/>
@@ -19,7 +19,7 @@ class  Technologies extends  React.Component{
 
             <div className="typeScript">
                 <img src="/typescript-256.png" alt=""/>
-                <p> Type scriot </p>
+                <p> Type script </p>
             </div>
 
                   <div className="django">
@@ -27,7 +27,7 @@ class  Technologies extends  React.Component{
                 <p> Django </p>
             </div>
         </div> </div>
-
+</div>
         </>
     }
 }

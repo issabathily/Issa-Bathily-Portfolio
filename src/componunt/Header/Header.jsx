@@ -50,7 +50,7 @@ class Header extends React.Component{
                            <button> Facebook <i class="fa-solid fa-up-right-from-square"></i></button>
                        </span>
                    </span>
-        <h1> Salut, je suis  <span className="nom"> Issa Bathily</span>, <span className="dev"> développeur</span> passionné</h1>
+        <h1 className="h1"> Salut, je suis  <span className="nom"> Issa Bathily</span> vous voulais un site <span className="dev"> développeur</span> passionné</h1>
 
                     <div className="boton">
                       <div> <button> <i class="fa-brands fa-github"></i> Github </button> </div>

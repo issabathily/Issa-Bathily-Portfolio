@@ -13,3 +13,61 @@ border-radius: 30px;
     background-color: black;
 }
 
+.project{
+    color: #dc5300;
+    text-align: center;
+
+    margin:  4% 1px;
+
+}
+.contener-project {
+    width: 100%;
+
+}
+
+.contener-project{
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+
+}
+
+.mesprojet{
+
+    display: inline-block;
+    margin-bottom: 30px;
+      border: solid 1px #525050;
+    width: 360px;
+    padding: 20px 0px;
+     border-radius: 10px;
+    margin-left: 20px;
+
+img{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+}
+.texts{
+
+border-top: solid 1px #525050;
+color: white;
+padding: 10px;
+
+
+}
+.flex{
+    display: flex;
+    gap: 200px;
+}
+h3{
+    color: #dc5300;
+}
+.s{
+    height: 1px ;
+    width: 200px;
+    background-color: #dc5300;
+}

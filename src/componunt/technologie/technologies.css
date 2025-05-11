@@ -5,9 +5,9 @@ width: 100%;
 .container{
 gap: 55px;
     text-align: center;
-    display: flex;
-
-    justify-content: start;
+    display: grid;
+column-span: 2;
+  grid-template-columns: 2fr 2fr 10fr;
 
     color: white;
 
@@ -36,8 +36,14 @@ gap: 55px;
 
 @media screen and (max-width: 600px ) {
 
-.t{
+.container{
+
+    width: 20px;
+    padding: -20px;
 
 }
+    .responsive{
+        overflow: hidden;
+    }
 
 }
