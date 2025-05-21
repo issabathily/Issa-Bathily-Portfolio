@@ -5,7 +5,7 @@ justify-content: space-around;
 }
 
 .container-proget img{
-width: 300px;
+width: 200px;
 border-radius: 30px;
 }
 .container-proget div{
@@ -34,23 +34,31 @@ border-radius: 30px;
 
 }
 
+.mesprojet:hover {
+    transition: all 0.1s;
+    border: solid 0.1px aqua;
+}
+
 .mesprojet{
 
     display: inline-block;
     margin-bottom: 30px;
       border: solid 1px #525050;
-    width: 360px;
+    width: 320px;
     padding: 20px 0px;
      border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 65px;
 
 img{
-    padding: 10px;
-    margin-left: 10px;
+
+    margin-left: 12px;
+    padding-bottom: 12px;
+
 }
 
 
 }
+
 .texts{
 
 border-top: solid 1px #525050;
@@ -59,6 +67,12 @@ padding: 10px;
 
 
 }
+
+a:hover .texts{
+    border-top: solid 1px aqua;
+}
+
+
 .flex{
     display: flex;
     gap: 200px;
@@ -71,3 +85,13 @@ h3{
     width: 200px;
     background-color: #dc5300;
 }
+
+@media screen and (max-width: 600px ) {
+.mesprojet{
+    margin-right: 36px;
+}
+
+
+}
+
+

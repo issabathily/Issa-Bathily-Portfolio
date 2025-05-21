@@ -7,14 +7,30 @@ const proget =[
         images: 'images/proget1.png',
         data : 'gesttion plainte',
         description :'Une site web qui permet au citoyen de deposer leur plainte ',
-        url : ''
+        url : 'https://gestionplainte-68rd.onrender.com/'
     },
      {
         name : 'Team Portfolio',
         images: 'images/proget2.png',
         data : 'isep diamniadio',
          description: 'Portfolio de De notre Team realiser avec mes Amis  a luniversiter',
-         url: ''
+         url: 'https://teamportfolio-ubsl.onrender.com'
+    },
+    {
+
+        name : 'Çhat bot prediction Vente ',
+        images: 'images/bot.png',
+        data:' Chat bot ',
+        description: ' Un chatbot qui permet de predir les ventes en france par rapport a une ville tres puissant   ',
+        url: 'https://predictionventeapi.onrender.com'
+    },
+     {
+
+        name : 'Çhat bot prediction Vente ',
+        images: 'images/bot.png',
+        data:' Chat bot ',
+        description: ' Un chatbot qui permet de predir les ventes en france par rapport a une ville tres puissant   ',
+        url: 'https://predictionventeapi.onrender.com'
     }
 ]
 
@@ -28,9 +44,9 @@ function Proget (){
 
                 <div className="mesprogt">
                     {proget.map((item)=> <div className="mesprojet">
-                         <a href="https://teamportfolio-ubsl.onrender.com">
+                         <a href={item.url}>
                         <img src={item.images} style={{
-                            width:310
+                            width:290
                         }} alt=""/>
                      </a>
                         <div className="texts">

@@ -47,15 +47,23 @@ class Header extends React.Component{
 
                        <span className="reseaux-socio">
                            <button> github <i class="fa-solid fa-up-right-from-square"></i> </button>
-                           <button> Facebook <i class="fa-solid fa-up-right-from-square"></i></button>
+
+                           <button>  <a href="https://www.facebook.com/bcodecode388"> Facebook <i class="fa-solid fa-up-right-from-square"></i></a> </button>
                        </span>
                    </span>
-        <h1 className="h1"> Salut, je suis  <span className="nom"> Issa Bathily</span> vous voulais un site <span className="dev"> développeur</span> passionné</h1>
+        <h1 className="h1"> Salut !, je suis  <span className="nom"> Issa Bathily</span>  Devellopeur Web et Data Analyst passionné par <span className="dev"> IA </span> Et les  nouvelle Technologies</h1>
 
                     <div className="boton">
-                      <div> <button> <i class="fa-brands fa-github"></i> Github </button> </div>
-                       <div>  <button> <i class="fa-brands fa-linkedin"></i> Linkdin</button></div>
-                       <div>  <button> <i class="fa-solid fa-calendar"></i> Realisation</button></div>
+                      <div><a href="https://github.com/issabathily">
+                          <button><i className="fa-brands fa-github"></i> Github</button>
+                      </a></div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/bcodecode">
+                                <button><i className="fa-brands fa-linkedin"></i> Linkdin</button>
+                            </a></div>
+                        <div>
+                            <a href="https://x.com/bcodecode388"> <button><i className="fa-brands fa-x-twitter"></i> twiter </button></a>
+                        </div>
                     </div>
 
                     <p> Depuis mes débuts, je suis profondément passionné par le développement web et mobile. Ce qui a commencé comme une simple curiosité est rapidement devenu une véritable vocation. J’aime concevoir des interfaces élégantes, créer des expériences utilisateurs intuitives, et

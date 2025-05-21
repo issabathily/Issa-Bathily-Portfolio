@@ -1,9 +1,14 @@
 #B.code Portfolio 
 lien website -> https://issa-bathily-portfolio.onrender.com/
 
-<img width="937" alt="image" src="https://github.com/user-attachments/assets/288c7816-ecdb-420a-9b79-513d21df0821" />
-<img width="937" alt="image" src="https://github.com/user-attachments/assets/63302fee-4e6f-4ace-8c42-a3f62c88eb14" />
-<img width="941" alt="image" src="https://github.com/user-attachments/assets/72c3feb1-3a15-488e-b99a-600e1e9bd678" />
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/6f18146d-1989-45ac-b11f-d73e19e13f41" />
+
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/31f880ba-c3d5-4eaa-baf4-f7dc61a43151" />
+
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/16cf1691-f0a3-4223-854b-ea34d7d7f336" />
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/4693eba6-17d2-49f7-bae2-d75f090c8051" />
+
+
 
 
 
