@@ -22,6 +22,7 @@ border-radius: 30px;
 }
 .contener-project {
     width: 100%;
+    margin-bottom: 100px;
 
 }
 
@@ -35,12 +36,14 @@ border-radius: 30px;
 }
 
 .mesprojet:hover {
-    transition: all 0.1s;
+    transform: scale(1.05);
+
     border: solid 0.1px aqua;
+    transition: all 0.9s;
 }
 
 .mesprojet{
-
+transition: all 0.9s;
     display: inline-block;
     margin-bottom: 30px;
       border: solid 1px #525050;

@@ -23,15 +23,8 @@ const proget =[
         data:' Chat bot ',
         description: ' Un chatbot qui permet de predir les ventes en france par rapport a une ville tres puissant   ',
         url: 'https://predictionventeapi.onrender.com'
-    },
-     {
-
-        name : 'Çhat bot prediction Vente ',
-        images: 'images/bot.png',
-        data:' Chat bot ',
-        description: ' Un chatbot qui permet de predir les ventes en france par rapport a une ville tres puissant   ',
-        url: 'https://predictionventeapi.onrender.com'
     }
+
 ]
 
 function Proget (){

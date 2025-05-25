@@ -1,15 +1,25 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import './Header.css'
 
 
-class Header extends React.Component{
-    render() {
+function Header() {
+
+const [heure, setHeure] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setHeure(new Date());
+    }, 1000); // Mise à jour chaque seconde
+
+    return () => clearInterval(interval); // Nettoyage
+  }, []);
+
         return<>
         <div className="header">
-            <div className="div"> <i class="fa-solid fa-phone-volume"></i></div>
+            <div className="div"> <a style={{color:"aqua"}} href="tel:+221773880436"> <i className="fa-solid fa-phone-volume"></i></a></div>
             <header>
 
-                <div className="logo"> -Bcode-> </div>
+            <div className="logo"> -Bcode-> </div>
                 <div className="nav-menu">
                     <nav>
                         <ul>
@@ -32,7 +42,7 @@ class Header extends React.Component{
 
             </header>
 
-<div className="heure"> 12/12/222</div>
+<div className="heure"> {heure.toLocaleTimeString()}</div>
         </div>
 
 
@@ -89,7 +99,7 @@ class Header extends React.Component{
             <div className="effet"> </div>
 
         </>
-    }
+
 }
 
 export default Header;

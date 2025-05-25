@@ -2,6 +2,11 @@
 width: 100%;
 }
 
+.container:hover{
+    transform: scale(1.01);
+    transition: all 0.9s;
+}
+
 .container{
 gap: 55px;
     text-align: center;

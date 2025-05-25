@@ -1,0 +1,49 @@
+.section-gauche{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+column-gap: 20px;
+}
+
+.contener-form{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+form {
+
+}
+form input{
+    color: #61dafb;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 7px;
+    background: none;
+    border: solid 1px aqua;
+}
+form label{
+    padding: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+textarea{
+    background: none;
+    border: solid 1px  aqua;
+    border-radius: 5px;
+    width: 450px;
+}
+{
+    text-align: center;
+    width: 40%;
+     margin-bottom: 25px;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.h2{
+   font-size: 2rem;
+    margin-bottom: 30px;
+}
